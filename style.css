@@ -89,7 +89,9 @@ body {
 
 .button-container {
     width: 300px;
+    display: flex;
     justify-content: center;
+    gap: 15px;
 }
 
 /* Estilos de entrada de texto */
@@ -159,4 +161,23 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+.button-restart {
+    background-color: rgb(25, 188, 25);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.button-restart:active {
+    transform: scale(0.95);
+}
+
+.button-restart:hover {
+    background-color: rgb(4, 137, 4);
 }
