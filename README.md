@@ -1,4 +1,4 @@
-# challenge-amigo-sereto
+# challenge-amigo-secreto
 
 Se crea el proyecto CHALLENGE AMIGO SECRETO
 
