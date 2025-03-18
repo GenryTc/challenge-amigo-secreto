@@ -50,3 +50,11 @@ document.getElementById("amigo").addEventListener("keydown", function(event) {
         agregarAmigo();
     }
 });
+
+function reiniciarJuego() {
+    amigos = [];
+    document.getElementById("listaAmigos").innerHTML = "";
+    document.getElementById("resultado").innerHTML = "";
+    document.getElementById("amigo").value = "";
+    document.getElementById("amigo").focus();
+}
